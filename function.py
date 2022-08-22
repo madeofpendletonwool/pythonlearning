@@ -1,4 +1,6 @@
-def here_it_comes():
-    print("HERE IT COMES BAYYYYYBBBBBEEEEEEEEEE" * 20)
+def here_it_comes(amount):
+    var = ("HERE IT COMES BAYYYYYBBBBBEEEEEEEEEE" * amount)
+    return var
 
-here_it_comes()
+testout = here_it_comes(3)
+print(testout)
