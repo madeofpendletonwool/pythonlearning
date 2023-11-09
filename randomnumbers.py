@@ -1,6 +1,6 @@
-import random
+import secrets
 
-coin = random.randint(1, 2)
+coin = secrets.SystemRandom().randint(1, 2)
 
 if coin == 1:
     print("Ya landed on heads!")

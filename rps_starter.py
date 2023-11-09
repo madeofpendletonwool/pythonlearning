@@ -1,5 +1,5 @@
-from random import randint
 import time
+import secrets
 
 rock = """
     _______
@@ -27,7 +27,7 @@ scissors = """
 ---.__(___)
 """
 # Pick a random number from 1 to 3
-num = randint(1,3)
+num = secrets.SystemRandom().randint(1,3)
 
 # Turn that random number into the computer's RPS move
 if num == 1:
